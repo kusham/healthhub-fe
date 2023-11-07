@@ -1,0 +1,222 @@
+.package-page{
+  display: flex;
+  flex-direction: column;
+}
+
+.package-selection-container {
+    align-items: center;
+    font-family: 'poppins';
+  }
+
+.package-selection-content{
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; 
+} 
+
+  .package-heading{
+    width: 100%;
+    line-height: 100px;
+    background: #BF94D4;
+    justify-content: left;
+    margin-top: 100px;  
+}
+
+.package-heading h1 {
+  color: #740A8F;
+  font-size: 3rem;
+  margin-left: 40px;
+
+}
+
+  .choose-your-plan {
+    text-align: center; 
+    color: #712D82;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .package-boxes {
+    justify-content: center;
+    display: flex;
+    gap: 90px;
+  }
+  
+  .package-box-premium {
+    border-radius: 20px;
+    border: 1px solid #500E5B;
+    background: #CCC3FF;
+    width: 510px;
+    height: 600px;
+  }
+
+  .package-box-basic {
+    border-radius: 20px;
+    border: 1px solid #3E1252;
+    background: #DFBFF8;
+    width: 510px;
+    height: 600px;
+  }
+
+  .package-title,
+  .package-price {
+    text-align: center; 
+    margin-top: 40px;
+    line-height: 50px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #000;
+  }
+
+  .package-title.basic{
+    background: #BDADEB;
+    line-height: 70px;
+  }
+  
+.package-title.preminum{
+  background: #D7ADEB;
+  line-height: 70px;
+}
+
+  .package-features {
+    list-style: none;
+    padding: 0 30px;
+    text-align: left;
+    
+  }
+  
+  .package-features li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #3B2E8C;
+    margin-bottom: 15px; 
+  }
+  
+  .tick-mark {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 25px;
+    background-image: url('/public/images/tick-mark.png'); 
+    background-size: cover;
+  }
+  
+  .cross-mark{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 25px;
+    background-image: url('/public/images/cross-mark.png'); 
+    background-size: cover;
+  }
+
+
+  .package-select-button {
+    width: 10rem;
+    height: 4rem;
+    color: #3E1252;
+    border-radius: 10px;
+    background: #C87BEC;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 50px; 
+    margin-left: 180px;
+  }
+  
+
+
+  /*------------------responsive--------------------*/
+
+  @media (max-width: 768px) {
+  
+  .package-selection-content{
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 0;
+  } 
+  
+    .package-heading{
+      width: 100%;
+      line-height: 4rem;
+      margin-top: 4.5rem;  
+  }
+  
+  .package-heading h1{
+    font-size: 2rem;
+    margin-left: 2rem;
+  
+  }
+  
+    .choose-your-plan {
+      font-size: 1.5rem;
+    }
+    
+    .package-boxes {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .package-box-premium {
+      border-radius: 0.5rem;
+      width: 20rem;
+      height: 28rem;
+    }
+  
+    .package-box-basic {
+      border-radius: 0.5rem;
+      width: 20rem;
+      height: 28rem;
+    }
+  
+    .package-title,
+    .package-price {
+      text-align: center; 
+      margin-top: 2rem;
+      line-height: 1rem;
+      font-size: 1rem;
+    }
+  
+    .package-title.basic{
+      line-height: 3rem;
+    }
+    
+  .package-title.preminum{
+    line-height: 3rem;
+  }
+  
+    .package-features {
+      padding: 0 20px;
+      text-align: left;
+      
+    }
+    
+    .package-features li {
+      font-size: 1rem;
+      margin-bottom: 1rem; 
+    }
+    
+    .tick-mark {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 1rem;
+    }
+    
+    .cross-mark{
+      width: 0.8rem;
+      height: 0.8rem;
+      margin-right: 1rem;
+    }
+  
+  
+    .package-select-button {
+      width: 8rem;
+      height: 2.5rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      margin-top: 1.8rem; 
+      margin-left: 6rem;
+    }
+
+  }

@@ -1,0 +1,225 @@
+.login-page{
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.login-container {
+  position: relative;
+  font-family: 'poppins';
+  width: 90%;
+  max-width:1200px;
+  margin: 15rem 1rem 3rem 2rem; 
+  text-align: left;
+  }
+  
+  .login-header {
+    color: #8429A4;
+    font-size: 2rem;
+    margin-left: 7rem;
+    font-weight: 600;
+  }
+  
+  .login-input-container {
+    margin-top: 2rem;
+  }
+  
+  .login-page-text-box {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #9A12B1;
+    background: #FFF;
+    font-size: 1rem; 
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+  }
+  
+  .forgot-password {
+    color: #8728B4;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+
+  
+.login-buttons { 
+  text-align: center;
+  margin: 2rem;
+  margin-left: 0;
+}
+
+.login-login-button, .login-signup-button {
+  display: inline-block; 
+  text-decoration: none;  
+  width: 8rem;
+  height: 3rem;
+  font-weight: 400;
+  border-radius: 2rem;
+  background: #CB93F7;
+  border: 1px solid #9B58DD;
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 3rem;
+}
+
+.login-login-button {
+  background: #DEB4FF;
+
+}
+
+.login-signup-button {
+  background: #FDFBFF;
+
+}
+
+.login-login-:hover {
+  background: #C59CE5;
+}
+
+.login-signup-:hover {
+  background: #EDE8F2;
+}
+
+.or-text {
+  color: #8728B4;
+  font-family: 'Anek Tamil', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 2rem;
+  position: relative;
+}
+
+.or-text::before,
+.or-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 5rem;
+  height: 1px;
+  background: #8728B4;
+}
+
+.or-text::before {
+  left: 1rem;
+}
+
+.or-text::after {
+  right: 1rem;
+}
+
+/*--------------------tab--------------------*/
+
+@media only screen and (min-width: 768px) {
+.login-container {
+  width: 70%;
+  margin: 20rem 1rem 7rem 5rem;
+  align-items: center;
+  }
+  
+  .login-header {
+    font-size: 3rem;
+    margin: 0 0 3rem 12rem;  
+  }
+  
+  .login-input-container {
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+  
+  .login-page-text-box {
+    width: 20rem;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 1.5rem; 
+    margin-bottom: 1.5rem;
+  }
+  
+  .forgot-password {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+
+.login-buttons {
+  margin: 4rem;
+}
+
+.login-login-button, .login-signup-button { 
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
+.or-text {
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
+.or-text::before,
+.or-text::after {
+  width: 7rem;
+}
+}
+/*---------------------desktop------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  .login-container {
+    width: 80%;
+    margin: 15rem 2rem 8rem 3rem; 
+    }
+    
+    .login-header {
+      font-size: 4rem;
+      margin-left: 25rem;
+    }
+    
+    .login-input-container {
+      margin-top: 4rem;
+      margin-left: 12rem;
+    }
+    
+    .login-page-text-box {
+      width: 30rem;
+      height: 5rem;
+      font-size: 2rem; 
+    }
+    
+    .forgot-password {
+      font-size: 2rem;
+      margin: 4rem 0 4rem 12rem;
+    }
+  
+  .login-buttons {
+    margin: 3rem;
+  }
+  
+  .login-login-button, .login-signup-button { 
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
+    line-height: 5rem;
+    border-radius: 3rem;
+  }
+  
+  .or-text {
+    font-size: 2rem;
+    margin: 4rem;
+  }
+  
+  .or-text::before,
+  .or-text::after {
+    width: 15rem;
+}
+
+.or-text::before {
+  left: 6rem;
+}
+
+.or-text::after {
+  right: 6rem;
+}
+  }

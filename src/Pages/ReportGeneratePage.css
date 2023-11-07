@@ -1,0 +1,137 @@
+.report-generate-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.report-generate-box {
+    height: 10rem;
+    width: 100%;
+    max-width: 20rem; 
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.report-generate-box-heading{
+    width: 20rem;
+    height: 3rem;
+    color: #8511A2;
+    font-family: DM Sans;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background: #E0F9FF; 
+}
+
+.report-generate-box-content{
+    border-radius: 1rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(0px);
+    width: 20rem;
+    height:8rem;
+  
+}
+
+.report-generate-box-content p {
+    margin: 10px 0;
+    color: #E4ADF8;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+
+.report-generate-button-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.generate-download-section, .generate-email-section {
+    margin-top: 5rem;
+    position: relative;
+    color: #1510F7;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+.generate-email-section {
+    margin-top: 1rem;
+}
+
+.generate-download-btn, .generate-email-btn {
+    position: relative;
+    width: 8rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #E76BF1;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.generate-hand-icon {   
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: auto;
+}
+
+/*-------------------------------tab screen-----------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+.report-generate-box {
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.report-generate-box-heading{
+    width: 25rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.report-generate-box-content{
+    width: 25rem;
+    height:12rem;
+  
+}
+
+.report-generate-box-content p {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.report-generate-button-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.generate-download-section, .generate-email-section {
+    margin-top: 8rem;
+    font-size: 1.3rem; 
+    width: 50%;
+}
+
+.generate-download-btn, .generate-email-btn {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.generate-hand-icon {   
+    top: 50%;
+}
+}
