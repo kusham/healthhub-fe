@@ -47,6 +47,19 @@
 .report-generate-button-container{
     display:flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.generate-download-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+}
+.generate-email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .generate-download-section, .generate-email-section {
@@ -74,6 +87,9 @@
     font-family: DM Sans;
     font-size: 1rem;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .generate-hand-icon {   
